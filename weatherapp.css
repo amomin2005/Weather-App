@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('rainyc.jpg');
+}
+
+.searchdiv{
+    width: 100%;
+    max-width: 470px;
+    color: white;
+    margin: 10px auto 0;
+    border-radius: 8px;
+    padding: 30px 35px;
+    text-align: center;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: white;
+    color: rgb(0, 0, 0);
+    padding: 10px 25px;
+    height: 60px;
+    flex: 1;
+    font-size: 18px;
+    margin-right: 16px;
+    border-radius: 10px;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background: rgb(0, 191, 255);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search button img{
+    width: 16px;
+}
+
+.fa-cloud-bolt{
+    width: 170px;
+    font-size: 100px;
+    margin-top: 30px;
+}
+
+.temp{
+    font-size: 50px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-weight: 400;
+}
+
+.city{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 30px;
+}
+
+.fa-water{
+    font-size: 40px;   
+    padding-bottom: 10%; 
+}
+
+.fa-wind{
+    font-size: 40px;   
+    padding-bottom: 10%;  
+}
+
+.col{
+    font-size: 20px;
+}
